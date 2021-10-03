@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Slab"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Creative Card</title>
+  </head>
+  <body>
+    <video src="bg1.mp4" muted loop autoplay></video>
+    <div class="contain">
+      <div class="card">
+        <div class="sides left-side"></div>
+        <div class="sides right-side"></div>
+        <div class="back-side">
+          <div class="book-section">
+            <div class="container">
+              <div class="right">
+                <figure class="back" id="back-cover" style="display: grid; place-items: center;"></figure>
+              </figure>
+                <figure
+                  class="front"
+                  style="
+                    background-image: url(http://artisticdesigning.com/Drawings/Photoshopped/narendra_modi_caricature.jpg);
+                  "
+                >
+                  <h1>
+                    Happy Birthday<br />
+                    To The Girl I CARE & LOVE The Most...
+                  </h1>
+                  <span style="font-size: 15px;""
+                    >Wishing you a Best Birthday that you have ever had in your
+                    life, Always be Happy and never forget to Smile, because
+                    that's what defines you the most. I never thought we will be
+                    this much closer, and I had never been this much closer to
+                    anyone. Form the day we started this journey. till now, the
+                    moment we had is full of Joy & Happiness. I hope this will
+                    continue forever. I will be there for you on any means. Lets
+                    do enjoy the upcoming Journey ahead. Days are waiting for
+                    the memories yet to be created by US ❣.
+                  </span>
+                </figure>
+              </div>
+              <div class="right">
+                <figure
+                  class="back"
+                  style="
+                    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBQ4lJ7HwNd3PK2lY1mYtex5ARLBzwTLuTHg&usqp=CAU);
+                    background-size: 100% 100%;
+                  "
+                ></figure>
+                <figure
+                  class="front"
+                  id="cover"
+                  style="
+                    background-image: url('/images/blurbg.jpg');
+                    background-size: cover;
+                    display: grid;
+                    place-items: center;
+                  "
+                >
+                  <h1
+                    style="
+                      font-weight: bold;
+                      text-align: center;
+                      background: linear-gradient(
+                        to bottom,
+                        #0f0c29,
+                        #302b63,
+                        #24243e
+                      );
+                      -webkit-text-fill-color: transparent;
+                      -webkit-background-clip: text;
+                      transform: translateY(50%);
+                    "
+                  >
+                    ❣ Happy ❣<br />❣ Birthday ❣
+                  </h1>
+                  <span style="color: black; font-weight: bold"
+                    >❣ My Panda ❣</span
+                  >
+                </figure>
+              </div>
+            </div>
+            <button onclick="turnLeft()">Prev</button>
+            <button onclick="turnRight()">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
